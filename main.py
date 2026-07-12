@@ -1,13 +1,17 @@
-print("hola chicos")
 
+def multiplicar(a, b):
+    return a * b
 
 def restar(a, b):
     return a - b
 
-# Ejemplo de uso
-num1 = float(input("Ingresa el primer número: "))
-num2 = float(input("Ingresa el segundo número: "))
+def dividir(a, b):
+    return a / b
 
-resultado = restar(num1, num2)
 
-print("El resultado de la resta es: ", {resultado})
+
+resultado = restar(6, 9)
+
+resultado = multiplicar(3, 5)
+
+resultado = dividir(4, 8)
